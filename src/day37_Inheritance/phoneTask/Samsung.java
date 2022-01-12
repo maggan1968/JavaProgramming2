@@ -13,6 +13,7 @@ public class Samsung extends Phone {
 
 }
 
+
 /*
 Create a subclass of Phone named Samsung:
                 Variables:

@@ -40,6 +40,7 @@ public class Phone { // parent class: only contains the common features of all t
 
 }
 
+
 /*
 1.1 Create a class named Phone:
 				Variables:

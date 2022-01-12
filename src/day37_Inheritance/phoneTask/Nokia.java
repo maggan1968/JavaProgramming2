@@ -13,6 +13,7 @@ public class Nokia extends Phone {
 
 }
 
+
 /*
 1.4 Create a sub class of Phone named Nokia:
                 Variables:
