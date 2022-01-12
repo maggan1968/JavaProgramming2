@@ -7,6 +7,8 @@ public class PalindromeNum {
     public static void main(String[] args) {
         System.out.println(isPalNum(545));
 
+
+
     }
 
     public static boolean isPalNum(int num) {
