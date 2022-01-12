@@ -2,6 +2,9 @@ package practice_01_05_2022;
 
 public class WrapperClassIntro {
 
+    public String str="anything";
+
+
     public static void main(String args[]) {
 
         byte b = 10;
