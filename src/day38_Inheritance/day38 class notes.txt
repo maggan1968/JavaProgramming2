@@ -1,5 +1,5 @@
 Java Day38
-Topic:  Is A relation vs Has A relation
+Topic:  IS A relation vs HAS A relation
 		Method Overriding
 
 Package name: day38_Inheritance
@@ -28,5 +28,4 @@ Warmup task:
 			3. Tesla:
 					extra methods:
 						autoPilot();
-
 
