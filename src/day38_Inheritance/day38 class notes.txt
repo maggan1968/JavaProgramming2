@@ -86,13 +86,60 @@ IS A relation vs HAS A relation:
 		}
 
 
+Method Overloading: multiple different methods having the same name.
+					parameters MUST be different
+
+					ANY method can be overloaded
 
 
+Method Overriding:
+
+
+
+Access Modifiers:
+	
+	public > protected > default > private
 
 
 Tomorrow:
 	OOP Encapsulation
 	OOP Inheritance
+
+
+
+-----------------------------
+
+Car:
+	start(){car started}
+
+Toyota extends Car:
+	start():
+		twist the key to Ignition
+
+Audi extends Car:
+	start():
+		push start button
+
+Tesla extends Car:
+	start():
+		say "Start"
+
+
+BMW extends Car:
+	start():
+		Call mechanic
+		Jump start
+
+
+
+
+
+
+
+
+
+
+
 
 
 
