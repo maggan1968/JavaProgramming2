@@ -101,6 +101,13 @@ Access Modifiers:
 	public > protected > default > private
 
 
+
+Object Class: presented in "java.lang" package. 
+			  parent of all the classes.
+			  implicitly extended to all classes
+
+
+
 Tomorrow:
 	OOP Encapsulation
 	OOP Inheritance
@@ -131,6 +138,20 @@ BMW extends Car:
 		Jump start
 
 
+
+-----------------------------
+
+
+
+Circle
+
+
+Square
+
+
+Rectangle
+
+....
 
 
 
