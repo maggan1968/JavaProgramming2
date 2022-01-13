@@ -32,6 +32,62 @@ Warmup task:
 
 
 
+IS A relation vs HAS A relation:
+
+	IS A:
+		class Animal{
+
+		}
+
+		class Dog exetnds Animal{  // Dog IS A animal
+
+		}
+
+
+		class Employee{
+
+		}
+
+		class Tester extends Employee{ // Tester IS A Employee
+
+		}
+
+
+	HAS A:
+
+		class Tester extends Employee{
+
+		}
+
+		class ScrumTeam{ // ScrumTeam HAS A Tester
+			Tester
+		}
+
+		class Tiger extends Animal{ // Tiger IS A animal
+
+		}
+
+		class Zoo{  // Zoo Has A Tiger
+			Tiger
+		}
+
+
+
+		class Engine{
+
+
+		}
+
+
+		class Car{ // Car HAS A Engine
+
+			Engine
+
+		}
+
+
+
+
 
 
 Tomorrow:
