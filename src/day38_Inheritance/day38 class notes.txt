@@ -29,3 +29,14 @@ Warmup task:
 					extra methods:
 						autoPilot();
 
+
+
+
+
+
+Tomorrow:
+	OOP Encapsulation
+	OOP Inheritance
+
+
+
