@@ -22,7 +22,7 @@ public class Rectangle {
 
     public void setWidth(double width) {
         if(width <= 0){
-            System.err.println("Invalid Length: "+width);
+            System.err.println("Invalid Width: "+width);
             System.exit(1);
         }
         this.width = width;
