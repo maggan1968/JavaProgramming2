@@ -3,7 +3,7 @@ package practice_01_19_2022;
 public class SDET {
 
     public SDET(){
-        System.out.print(1); // 137113
+        System.out.print(1); //
     }
 
     public SDET(int number){
@@ -20,9 +20,9 @@ public class SDET {
 class Team {
 
    public static void main(String[] args) {
-       new SDET("Aygun");
-       new SDET();
-       new SDET(4);
+       new SDET("Aygun"); // 137
+       new SDET();  //1
+       new SDET(4); //13
    }
 
 }
