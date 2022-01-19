@@ -31,7 +31,7 @@ public class Q17 {
     }
 
     public static int action(boolean b) {
-        if(!b){
+        if(!b){ // ! --> opposite
             return 5;
         }else{
             return 10;
