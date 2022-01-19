@@ -4,8 +4,8 @@ public class Fruit {
 
     Juice juice;
 
-     public Fruit(String color)      {
-        juice = new Juice(color);
+     public Fruit(String color) {
+         juice = new Juice(color);
     }
 }
 
@@ -15,4 +15,5 @@ public class Fruit {
     public Juice(String color){
         this.color = color;
     }
+
 }

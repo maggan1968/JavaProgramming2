@@ -16,6 +16,8 @@ class Student {
         Classroom classroom = new Classroom();
         classroom.students.add(new Student());
         classroom.students.add(new Student());
+
         System.out.println(classroom.students.size());
+
     }
 }
