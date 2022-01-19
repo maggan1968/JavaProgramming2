@@ -11,7 +11,7 @@ public class Q7 {
         int n = -5;
 
         for(int i=1; i<5; i++){
-            n *= i;
+            n *= i; //-30*4=-120
         }
 
         System.out.println(n);
