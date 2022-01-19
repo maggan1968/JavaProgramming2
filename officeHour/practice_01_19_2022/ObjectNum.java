@@ -10,5 +10,6 @@ public class ObjectNum {
         on3 = new ObjectNum();
         ObjectNum on4 = on3;
         on4 = new ObjectNum();
+
     }
 }
