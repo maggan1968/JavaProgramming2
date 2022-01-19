@@ -8,7 +8,7 @@ public class Q8 {
 
     public static void method2(String s) {
 
-        String a = s.substring(10);
+        String a = s.substring(10);//String a= "t quickly and created a shadow";
 
         if(a.length() > s.length()){
             System.out.println(a);
