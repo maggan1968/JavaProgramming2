@@ -13,7 +13,7 @@ public class FinalVariable {
         this.birthDay = birthDay;
     }
 
-    public static void main(String[] args) {
+    public final static void main(String[] args) {
 
         final double pi = 3.14;
 
