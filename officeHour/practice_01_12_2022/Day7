@@ -230,6 +230,15 @@ Practice Topics:
 
     What is Constructor?
 
+    Constructor:
+              - The constructor is invoked whenever the new keyword is executed
+              - The constructor name must be the same as the class name
+              - - if we don't have any constructor,Compiler can create constructor with no arg
+                - if you create constructor with parameter, compiler does not create no arg
+              - Constructors can be overloaded
+              - Constructors are used to initialize variables
+              - Constructors are invoked to create objects of a class
+
     - It is a special method to initialize all instance variables with Object
     - Constructor name MUST be same with ClassName
     - DOES NOT have RETURN TYPE
@@ -322,5 +331,22 @@ Practice Topics:
     - RUN ONLY ONCE before everything when class is loaded
     - if you have a file, if you should take all data from here you should use
 
+STATIC:
+       - A static variable can be called using an object of a given class
+       - RUN ONLY ONCE before everything when class is loaded
+       - When a method is static it can be called using the class name
+       - Static is applicable for the following:
+                                                       •Variables
+                                                       •Methods ( Static methods only accept static members )
+                                                       •Blocks  (It’s a set of instructions that is run only once when a class is loaded into memory)
+                                                       •Class
 
+Constructor:
+          - The constructor is invoked whenever the new keyword is executed
+          - The constructor name must be the same as the class name
+          - - if we don't have any constructor,Compiler can create constructor with no arg
+            - if you create constructor with parameter, compiler does not create no arg
+          - Constructors can be overloaded
+          - Constructors are used to initialize variables
+          - Constructors are invoked to create objects of a class
 
