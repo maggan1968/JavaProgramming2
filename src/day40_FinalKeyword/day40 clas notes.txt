@@ -15,7 +15,28 @@ Encapsulation: data hiding
 		writing the data
 	
 
-Inheritance: 
+Inheritance: Is A relation. 
+			 parent & child classes ( super & sub)
+
+			class A  extends Class B
+
+			child class (sub): inherits the variables and methods (Visible to the child class) from parent class (super)
+
+			parent class (super): can not inherit anything from child (sub class)
+
+
+
+protected access modifier: Alayws visible within the same package
+						   Visible outside the package in subclass ONLY
+
+
+
+Come back at: 11:15 am
+
+Inheritance short quiz due by 11:40 am
+
+
+
 
 
 
