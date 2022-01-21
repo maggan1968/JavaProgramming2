@@ -24,7 +24,53 @@ Exceptions Topic:
 		4. finally block
 		5. throws keyword
 		6. throw keyword
+		7. Custom Exception
 
 
 
 OutOfMemoryError: heap memory is full
+
+
+
+Exceptions: unexpected or unwanted events
+
+		Unchecked (unexpected event): occurs during the runtime
+
+					all the RuntimeExceptions are unchecked exceptions
+
+		checked (unwanted event): occurs during the compile time
+
+					all the exceptions that are not RuntimeExceptions are checked exception
+
+
+
+Exception handlings:
+		
+		1. Try & Catch blocks: used for handling checked and unchecked exceptions
+
+						try{
+
+							exception code
+
+						}catch(ExceptionClass  e){
+
+							e.printStackTrace();
+
+						}
+
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
