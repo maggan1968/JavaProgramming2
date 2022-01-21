@@ -50,7 +50,7 @@ public class TryCatchBlocks {
 
         System.out.println("--------------------------------------------------");
 
-        System.out.println("Test4 started");
+        System.out.println("Test3 started");
 
 
         try {
@@ -59,8 +59,9 @@ public class TryCatchBlocks {
             e.printStackTrace();
         }
 
-        System.out.println("Test4 started");
+        System.out.println("Test3 started");
 
+        System.out.println("--------------------------------------------------");
 
 
 
