@@ -25,3 +25,6 @@ Exceptions Topic:
 		5. throws keyword
 		6. throw keyword
 
+
+
+OutOfMemoryError: heap memory is full
