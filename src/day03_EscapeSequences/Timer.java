@@ -9,6 +9,7 @@ public class Timer {
         Scanner scan=new Scanner(System.in);
         System.out.println("please enter the number of minutes");
         int minutes=scan.nextInt();
+
         scan.close();
 
         for (int i=minutes; i > 0 ;i--) {
