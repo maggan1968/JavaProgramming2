@@ -4,9 +4,12 @@ public class Pond {
 
     static Water water;
 
-    /* line 5 */ {
-     //   water = new Water(color);
+   public void setWater(String color) {
+        water = new Water(color);
     }
 
+    public Pond(String color) {
+        water = new Water(color);
+    }
 
 }
