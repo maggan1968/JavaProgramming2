@@ -9,7 +9,7 @@ public class B extends A {
         System.out.println(num1); // line 1
         System.out.println(getNum2()); // line 2
         System.out.println(num3); // line 3
-        // System.out.println(num4) ; // line 4
+        System.out.println(getNum4()); // line 4
 
     }
 

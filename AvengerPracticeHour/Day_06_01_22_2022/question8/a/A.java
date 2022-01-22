@@ -10,6 +10,8 @@ public class A {
     public static int getNum2() {
         return num2;
     }
-    
 
+    public static int getNum4() {
+        return num4;
+    }
 }
