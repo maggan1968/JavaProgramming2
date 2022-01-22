@@ -11,7 +11,7 @@ public class A {
         return num2;
     }
 
-    public static int getNum4() {
+    protected static int getNum4() {
         return num4;
     }
 }
