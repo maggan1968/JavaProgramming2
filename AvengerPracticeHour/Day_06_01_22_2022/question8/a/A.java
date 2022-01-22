@@ -10,5 +10,6 @@ public class A {
     public static int getNum2() {
         return num2;
     }
+    
 
 }
