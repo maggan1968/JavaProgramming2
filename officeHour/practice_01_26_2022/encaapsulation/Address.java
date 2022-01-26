@@ -73,7 +73,7 @@ public class Address {
     public void setZipCode(String zipCode) {
         if (zipCode.length() != 5) {
             System.out.println("ERROR :Invalid ZipCode");
-            return; //exit statement
+            return; //exit method
         }
             this.zipCode = zipCode;
         }
