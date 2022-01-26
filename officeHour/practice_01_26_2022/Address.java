@@ -13,7 +13,7 @@ public class Address {
 			encapsulate all the fields
 
 			add a constructor that can set all the instances
-				 constr with no arg constr
+				and constructor with no arg constructor
 
 			- if the street name isEmpty or street length is bigger than 50
 			 otherwise
@@ -26,17 +26,17 @@ public class Address {
         */
 
     private String street, city, state, zipCode;
-    private final String country="USA";
+    private final static String country="USA";
 
     public Address(){
 
     }
 
     public Address(String street, String city, String state, String zipCode) {
-        setStreet(street);
+        this.street=street;
         this.city = city;
         this.state = state;
-        setZipCode(zipCode);
+        this.zipCode=zipCode;
     }
 
     public String getStreet() {
