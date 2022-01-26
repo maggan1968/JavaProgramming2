@@ -1,4 +1,4 @@
-package practice_01_26_2022;
+package practice_01_26_2022.encaapsulation;
 
 public class Address {
 
