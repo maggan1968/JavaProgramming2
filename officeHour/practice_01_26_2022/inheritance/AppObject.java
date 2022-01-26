@@ -14,6 +14,7 @@ public class AppObject {
 
         Discord discord = new Discord("6.75");
         discord.useTheApp(100);
+        discord.download();
         System.out.println("Discord "+discord);
 
     }
