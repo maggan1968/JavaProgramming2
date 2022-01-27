@@ -1,0 +1,31 @@
+Java Day42
+Topic: Exceptions Continue
+				Throws keyword
+				Throw keyword
+				Custom Exceptions
+
+
+package name: day42_Exceptions
+
+Warmup task:
+	MorningWorkOut:
+			1. Do 30 push-ups and try pausing 1.5 seconds in each
+
+
+			2. Do 20 Pull-ups and try pausing 2.5 seconds in each
+
+
+
+
+
+
+Monday:
+	OOP Abstraction Intro: Abstract method & abstract class
+
+Thursday:
+	OOP ABstraction: Interface
+
+
+Monday:
+	OOP Abstraction Review
+
