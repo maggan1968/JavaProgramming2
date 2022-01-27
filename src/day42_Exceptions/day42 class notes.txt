@@ -16,6 +16,19 @@ Warmup task:
 
 
 
+Exception Handlings:
+		
+		1. try & catch: used for handling checked & unchecked exceptions
+
+				try{
+					exception code
+				}catch(ExceptionType e){
+					e.printStackTrace();
+				}
+
+		2. throws: used for handling checked exceptions ONLY
+
+
 
 
 
