@@ -32,7 +32,7 @@ Exception Handlings:
 
 
 
-throw keyword: used for manually creating exception
+throw keyword: used for manually throw exception
 		
 		throw ExceptionObject
 
