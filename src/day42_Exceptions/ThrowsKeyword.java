@@ -1,9 +1,6 @@
 package day42_Exceptions;
 
-import java.io.FileNotFoundException;
-
 public class ThrowsKeyword {
-
 
     public static void main(String[] args) throws InterruptedException {
 
