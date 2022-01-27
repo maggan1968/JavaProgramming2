@@ -8,12 +8,19 @@ public class DisadvantageOfThrowsKeyword2 {
 
     public static void main(String[] args) throws  InterruptedException {
 
+       // System.out.println("Hello");
+
         method1();
         method2();
         method3();
 
+
         String str = null;
-        System.out.println(str.charAt(0));
+        try {
+            System.out.println(str.charAt(0));
+        }catch (RuntimeException e){
+            e.printStackTrace();
+        }
 
     }
 

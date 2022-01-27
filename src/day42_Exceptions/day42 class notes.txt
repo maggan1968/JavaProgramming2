@@ -32,6 +32,13 @@ Exception Handlings:
 
 
 
+throw keyword: used for manually creating exception
+		
+		throw ExceptionObject
+
+	String browser = "Cydeo";
+
+
 
 
 Monday:
