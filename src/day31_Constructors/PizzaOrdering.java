@@ -31,6 +31,7 @@ public class PizzaOrdering {
 
         for (Pizza pizza : pizzas) {
             totalPrice += pizza.calcCost();
+
         }
 
         System.out.println("totalPrice = " + totalPrice);

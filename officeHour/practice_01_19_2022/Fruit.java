@@ -4,9 +4,11 @@ public class Fruit {
 
     Juice juice;
 
-     public Fruit(String color) {
-         juice = new Juice(color);
+    public Fruit(String color) {
+        juice = new Juice(color);
+
     }
+
 }
 
  class Juice {
