@@ -33,10 +33,10 @@ public class Address {
     }
 
     public Address(String street, String city, String state, String zipCode) {
-        this.street=street;
+        setStreet(street);
         this.city = city;
         this.state = state;
-        this.zipCode=zipCode;
+        setZipCode(zipCode);
     }
 
     public String getStreet() {
