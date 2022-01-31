@@ -121,16 +121,15 @@ Employee task:
 
 Shape task:
 	
-	abstract Shape:
+	Shape:
 		name
 
 		Encapsulate the fields
 
 		Add constructor to set the fields
 
-		area();
-		perimeter();
-
+		area()
+		perimeter()
 		toString(): name, area, perimeter
 
 
@@ -148,6 +147,21 @@ Shape task:
 					area(): r * r * pi
 					perimeter(): 2 * r * pi
 
+
+
+Animnal task:
+
+		abstract Animal
+
+			eat();
+		
+		Dog
+
+		Cat
+
+		Tiger
+
+		Eagle
 
 
 	
