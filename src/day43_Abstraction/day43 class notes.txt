@@ -16,3 +16,54 @@ Exception:
 throw new RuntimeException("Exception Message");
 
 
+Exceptions Short quiz due by 11:40 am
+
+
+OOP Encapsulation: hiding the data
+
+OOP Inheritance: creating IS A relation between classes (parent/child  or super/sub)
+		
+		method overriding: giving different implementatiosn to the method
+
+
+
+
+
+
+Abstraction Topics:
+		Abstract Method
+		Abstract Class
+		Interface
+
+		abstract class vs class
+		abstract class vs interface
+
+
+
+
+Car Task:
+	abstract Car:
+		make, model, color, year, price....
+		start();
+		stop()
+
+	Honda extends Car:
+		start(): twist the key to ignition
+
+	Adui extends Car:
+		start(): push the start button
+
+	Tesla extends Car:
+		start(): Say "Start"
+
+
+
+
+
+
+
+
+
+
+
+
