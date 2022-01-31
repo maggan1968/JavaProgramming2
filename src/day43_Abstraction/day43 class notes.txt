@@ -39,6 +39,37 @@ Abstraction Topics:
 Abstraction: focusing on the essentials without worrying about the small details(implementations) of the method
 
 
+
+
+
+
+
+
+
+
+abstract class Device{
+	tunrOff();
+
+}
+
+
+abstract class Phone extends Device{
+	call();
+}
+
+
+class Iphone extends Phone{
+	
+}
+
+class Samsung extends Phone{
+	
+}
+
+
+
+
+
 Car Task:
 	abstract Car:
 		make, model, color, year, price....
@@ -57,11 +88,17 @@ Car Task:
 
 
 Employee task:
-		abstract Employee:
-			name, age, gender, id, jobTitle, salary...
+		abstract Person:
+			name, age, gender(final)
+
+			eat();
+			sleep();
+
+		abstract Employee extends Person:
+			 id(final), jobTitle, salary...
 
 			work();
-			sleep();
+			
 
 		Tester
 			work(): testing
@@ -80,7 +117,7 @@ Employee task:
 
 		...
 
-		
+
 
 Shape task
 
