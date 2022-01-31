@@ -27,9 +27,6 @@ OOP Inheritance: creating IS A relation between classes (parent/child  or super/
 
 
 
-
-
-
 Abstraction Topics:
 		Abstract Method
 		Abstract Class
@@ -39,6 +36,7 @@ Abstraction Topics:
 		abstract class vs interface
 
 
+Abstraction: focusing on the essentials without worrying about the small details(implementations) of the method
 
 
 Car Task:
