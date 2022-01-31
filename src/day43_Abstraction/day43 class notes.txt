@@ -1,0 +1,26 @@
+Java Day43
+Topic: Abstraction Intro
+			Abstract Method
+			Abstract class
+
+package name: day43_Abstraction
+
+Warmup tasks:
+	1. Create a class named Rectangle:
+			variables:
+					length, width
+
+		Encapsulate all the fields
+				if the length or width of the rectangle is set to 0 or negative, throw an exception with a message of: "No Such a Rectangle with a length/width of: l/w "  replace l/w with given length/width
+
+		Add a constructor to initialize all the fields
+
+		methods:
+			area(): returns the area of the rectangle
+			perimeter(): returns the perimeter of the rectangle
+			toString()
+
+
+
+
+
