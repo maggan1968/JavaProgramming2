@@ -56,7 +56,33 @@ Car Task:
 
 
 
+Employee task:
+		abstract Employee:
+			name, age, gender, id, jobTitle, salary...
 
+			work();
+			sleep();
+
+		Tester
+			work(): testing
+
+
+		Developer
+			work(): developing
+
+
+		Teacher
+			work(): teaching
+
+
+		Driver
+			work(): driving
+
+		...
+
+		
+
+Shape task
 
 
 
