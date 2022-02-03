@@ -9,10 +9,10 @@ public class Animal {
     private String size;
     private final String color;
 
-    public final static boolean canBreath;
+    public final static boolean canBreathe;
 
     static{
-        canBreath = true;
+        canBreathe = true;
     }
 
     public Animal(String name, String breed, char gender, int age, String size, String color) {
@@ -65,6 +65,9 @@ public class Animal {
     public String getColor() {
         return color;
     }
+
+
+
 
 
 
