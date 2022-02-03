@@ -15,7 +15,7 @@ Warmup task:
 			Add a cosntructor that can set all the fields
 
 			Methods:
-				eat() ==> different animals eat different foods
+				eat(); ==> different animals eat different foods
 				drink() ==> all the animals drink water
 				toString() ==> to display the full info of the animal
 
@@ -34,3 +34,47 @@ Warmup task:
 
 				Eagle
 					eat(): eats snake
+
+
+OOP Abstraction: concentrating on essentials (what it is), not worrying about the details/implementation (how it's done)
+
+		Abstract method: A method without the implementation/body
+
+							meant to be overridden
+
+				area();
+				perimeter();
+				...
+				eat();
+				..
+
+		2 ways to achieve the abstraction:
+				1. Abstract class
+				2. Interface
+
+
+
+		Abstract class: meant to be super class (parent)
+						can not be final
+						Not concrete ( can not create object)
+
+						can have all the methods, variables, and blocks of non-abstract class + abstract methods
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
