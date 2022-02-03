@@ -1,6 +1,6 @@
 Java Day44
 Topics: Abstraction Continue
-				Interface
+				Interface Intro
 
 Package name: day44_Abstraction
 
