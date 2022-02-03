@@ -104,7 +104,6 @@ public abstract class Animal {
 
 }
 
-
 /*
 Animal Task:
 		Create an abstract class named Animal:
