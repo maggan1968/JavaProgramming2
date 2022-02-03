@@ -12,7 +12,7 @@ public final class Cat extends Animal{
         System.out.println(getName()+" is eating biryani");
     }
 
-    public void Meow(){
+    public void meow(){
         System.out.println(getName() + " is Meowing");
     }
 

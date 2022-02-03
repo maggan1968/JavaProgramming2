@@ -11,4 +11,6 @@ public final class Eagle extends Animal {
     public void eat() {
         System.out.println(getName()+" is eating snake");
     }
+
+
 }
