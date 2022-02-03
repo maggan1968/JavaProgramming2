@@ -34,7 +34,3 @@ Animal Task:
 
 			Eagle
 				eat(): eats snake
-
-
-
-
