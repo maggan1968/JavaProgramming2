@@ -62,6 +62,68 @@ OOP Abstraction: concentrating on essentials (what it is), not worrying about th
 
 
 
+Animal Task:
+	interface Swimmable:
+		swim()
+
+	interface Flyable:
+		 fly();
+
+	Interface Wild:
+		hunt();
+	
+	interface Plyable:
+		play();
+	
+	Abstract Animal:
+		 eat()
+		 drink()
+
+
+
+   Dog extends Animal implemnts Plyable, Swimmable
+
+   Cat extends Animal implemnts Plyable
+
+   Cow extends Animal implemnts Plyable
+
+   Horse extends Animal implemnts Plyable
+
+   Parrot extends Animal implemnts Plyable, Flyable
+
+   Tiger extends Animal implements Wild
+
+   Lion extends Animal implements Wild
+
+   Eagle extends Animal implements Wild, Flyable
+
+   Falcon extends Animal implements Wild, Flyable
+
+   Dolphin extends Animal implemnts Plyable, Swimmable
+
+   Shark extends Animal implements Wild, Swimmable
+
+   Duck extends Animal implements Swimmable, Flyable, Plyable
+
+   Java extends Animal implements Swimmable, Flyable, Plyable, Wild
+
+   ...
+
+
+
+Person implements Swimmable, Plyable
+
+Boat implements Swimmable
+
+Airplane implemnts Flyable
+
+CydeoCar implements Swimmable, Flyable
+
+
+
+
+
+
 
 
 
