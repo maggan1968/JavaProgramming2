@@ -1,6 +1,6 @@
 package day44_Abstraction.animalTask;
 
-
+/*
 class Test{
 
     public static void main(String[] args) {
@@ -11,13 +11,9 @@ class Test{
     }
 
 }
-
-
-
+*/
 
 public abstract class Animal {
-
-
 
     private String name;
     private final String breed;
