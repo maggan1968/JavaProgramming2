@@ -73,8 +73,37 @@ Abastract class vs interface: both are used for achieving abstraction
 
 
 
-extends vs implements:
+extends vs implements: both are used for inheritance
+		
+		extends:
+				class extends class
+				interface extends interface(s)
 
+		implements:
+				class implements interface(s)
+
+
+		extends & implements:
+				extends first then implements
+
+
+
+interface AutoPark:
+	autoPark();
+
+interface AutoPilot extends AutoPark
+	selfDriver();
+
+
+
+interface SearchContext:
+	findElement();
+	findElements();
+
+
+interface WebDriver extends SearchContext:
+	get()
+	close()
 
 
 
