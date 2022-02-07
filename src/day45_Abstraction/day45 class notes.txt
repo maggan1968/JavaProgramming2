@@ -4,7 +4,6 @@ Topics: OOP Abstraction Continue:
 					Interface vs Abstract class
 					extends vs implements
 					
-		OOP Polymrophism Intro
 
 package name: day45_Abstraction
 
