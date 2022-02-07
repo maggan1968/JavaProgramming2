@@ -1,0 +1,27 @@
+Java Day45
+Topics: OOP Abstraction Continue:
+					Interface
+					Interface vs Abstract class
+					extends vs implements
+					
+		OOP Polymrophism Intro
+
+package name: day45_Abstraction
+
+
+
+
+Remaining topics:
+	Polymorphism
+	Collection
+	Map
+	Enum
+	Generics
+	Functional Interface
+	Lambda Expressions
+	Stream
+
+
+
+
+		
