@@ -1,4 +1,4 @@
-package practice_02_02_2022.finallyBlock;
+package practice_02_09_2022.finallyBlock;
 
 public class Connection {
 

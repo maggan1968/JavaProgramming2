@@ -1,4 +1,4 @@
-package practice_02_02_2022.exceptions;
+package practice_02_09_2022.exceptions;
 
 public class ThrowException {
     public static void main(String[] args) {

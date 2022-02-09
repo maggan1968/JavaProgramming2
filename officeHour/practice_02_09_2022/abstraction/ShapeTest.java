@@ -1,4 +1,4 @@
-package practice_02_02_2022.abstraction;
+package practice_02_09_2022.abstraction;
 
 public class ShapeTest {
 
