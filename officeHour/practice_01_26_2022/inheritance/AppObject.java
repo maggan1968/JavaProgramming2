@@ -16,6 +16,7 @@ public class AppObject {
         discord.useTheApp(100);
         discord.download();
         System.out.println("Discord "+discord);
+        System.out.println(discord.getName());
 
     }
 }

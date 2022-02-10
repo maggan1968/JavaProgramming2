@@ -1,0 +1,119 @@
+Office Hours 02/09/2022
+
+Practice Topics: - Exceptions
+                 - Abstraction
+                
+
+
+                                       === EXCEPTIONS ===
+
+ 1- CHECKED VS UNCHECKED
+
+    CHECKED : Unwanted event
+
+        - It occurs in Compiler Time
+        - We MUST handle
+        - Easy To Catch
+        - Solution
+            - TRY CATCH
+            - THROWS
+
+    UNCHECKED : Unexpected event
+
+        - It occurs in Runtime( All unchecked exceptions are RunTime Exception)
+        - Code will compile even if we handle OR not
+        - Not Easy to Catch
+        - Solution
+            - TRY CATCH
+
+2- TRY CATCH
+
+        - It can be used for UNCHECK and CHECKED
+
+        MULTIPLE TRY CATCH
+
+        - TRY block will be capable of throwing exception one or more.
+        - if we don't exception we should multiple catch to catch it
+
+        RULE : PARENT Exception type can not be placed before CHILD
+
+3- THROWS
+
+        - used for ONLY CHECKED EXCEPTIONS
+        - it informs the compiler that method can throw one or more Exception
+         RULE : When you declare a CHECKED Exception, whoever CALLS this method is resposible to HANDLE(TRY CATCH) OR DECLARE(THROWS)
+
+4- FINALLY
+
+        - Why we need FINALLY?
+        - If we want to some code to be always executed we should use finally block
+
+        - The statements inside finally block execute whether an exception occurs or not
+
+Question: Is finally block always gets executed ? NO
+            - System.exit(0);
+            - JVM Crash
+
+
+5- THROW
+        - if you want throw an exception manually we can use it
+            -  Java Exceptions
+            - Custom Excpetions
+
+6-CUSTOM Exceptions
+
+        - We can create Custom Exception  by extending the parent of the exception class or one of its subclasss
+
+
+======================================================================================================================
+
+                                     === ABSTRACTION ===
+
+Abstract keyword: The keyword abstract can be applied to classes and methods. abstract and final or static can never be together.      
+
+=== Abstract class ===
+
+1. An abstract class is one that contains the keyword abstract.
+
+2. Abstract classes can’t be instantiated (can’t create objects of abstract classes). They can have constructors, static methods, and final methods.
+
+=== Abstract methods ===
+
+1. An abstract method is one that contains the keyword abstract.
+
+2. An abstract method doesn’t have implementation (no method body and ends up with a semi colon). It shouldn’t be marked as private.
+
+=== Abstract class and Abstract methods ===
+
+1. If at least one abstract method exists inside a class then the whole class should be abstract.
+2. We can have an abstract class with no abstract methods.
+3. We can have any number of abstract as well as non-abstract methods inside an abstract class at the same time.
+4. The first concrete sub class of an abstract class must provide implementation to all abstract methods.
+5. If this doesn't happen, then the sub class also should be marked as abstract.     
+
+=== When do we want to mark a class as abstract? ===
+
+* To force sub classes to implement abstract methods.
+* To stop having actual objects of that class.
+* To keep having a class reference.
+* To retain common class code.   
+
+=== Points to Remember ===
+
+* An abstract class must be declared with an abstract keyword.
+* It can have abstract and non-abstract methods.
+* It cannot be instantiated.
+* It can have constructors and static methods also.
+* It can have final methods which will force the subclass not to change the body of the method.
+
+
+=====================================================================================================================
+
+                                   
+
+
+
+
+
+
+
