@@ -36,6 +36,7 @@ public abstract class Employee extends Person{
         this.salary = salary;
     }
 
+
     public abstract void work();
 
     public String toString() {
