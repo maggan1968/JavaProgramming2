@@ -34,9 +34,6 @@ Polymorphism (Many forms): Ability of the objects to take on many forms
 
 
 
-
-
-
 Dynamic Polymorphism: Method overriding
 					 One method with multiple implementations
 
@@ -75,10 +72,84 @@ casting: converting one type to another
 
 		2. Reference Type castings: THERE MUST BE INHERITANCE
 
+				2.1 Upcasting: casting sub type to the super type (done Implicitly)
+
+							Car car = new BMW();
+
+				2.2 downcasting: casting super type to sub type (done explicitly)
+
+							Animal animal = new Dog();
+
+							( (Dog)animal ).bark();
 
 
 
 
+OOP: Object Oreinted Programming
+
+	Advantages:
+		improves rusuability
+		easy to maintain
+		less memory
+		less codes
+		avoid duplication
+		Flexible
+
+	OOP tasks:
+		Animal Task
+		Employee Task
+		Car Task
+		Shape Task
+		Phone Task
+		Browser Task
+		...
+
+
+		1. Encapsulation: hiding the data by giving private access modifier
+				
+					getter (raed)
+					setter (write)
+
+					If private data is final, we can not generate setter
+
+					POJO
+
+		2. Inheritance: Building "IS A" relationship (parent & child)
+
+				child class: inherits all the variable & methods (that are visible) from the parent class
+
+				parent class: does not inherit any thing from child class
+
+
+				Object class is the parent of all the classes by deafult
+
+
+				TesteBase
+					driver
+
+					setUp (@BeforeMethod):
+						set the driver
+						open the browser
+						maximize the window
+						implicitWait
+						navigateToURL
+
+
+					tearDown (@AfterMethod):
+						TakeScreenShot (If stailed)
+						Quit
+
+
+					TestClass1 extends TestBase
+
+
+					TestClass2 extends TestBase
+
+
+
+		3. Abstraction: hiding the implementation details
+
+		4. Polymorphism: Ability of the objects to take on many forms
 
 
 
