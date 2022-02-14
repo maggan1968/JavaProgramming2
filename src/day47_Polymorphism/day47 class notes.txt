@@ -24,21 +24,78 @@ Polymorphism (Many forms): Ability of the objects to take on many forms
 
 			  Object type decides which implementation to execute
 
+			    WebDriver driver = new FireFoxDriver();
+		  		driver.takeScreenShot();
+
+			  Animal animal = new Tiger();
+
+			  Employee employee = new Developer();
+
+
+
+
+
+
 
 Dynamic Polymorphism: Method overriding
 					 One method with multiple implementations
 
-Static Polymorphism: Method over loading
+					 eat():
+
+					 implementation1: bakla
+					 implementation2: Java
+					 ...
+
+Static Polymorphism: Method overloading
 					Multiple methods with same name
 					each method has one implementation ONLY
 
+					add(byte, byte)
+					add(integer, integer)
+					add(Decimal, Decimal)
 
 
-		  WebDriver driver = new FireFoxDriver();
-		  driver.takeScreenShot();
+casting: converting one type to another
 
-		  Animal animal = new Tiger();
+2 Types of Type castings:
+		
+		1. Primitive Type castings: must happen between primitives
 
-		  Employee employee = new Developer();
+				1.1 Implicit primitive type casting: casting smaller primitive type to large primitive type (done Implicitly)
+
+									int a = 100;
+									double b = a; // implicit casting
+
+
+				1.2 Explicit primitive type casting: casting larger primitive type to smaller primitive type (done explicitly)
+
+									long a = 100;
+									short b = (short)a; //explicit casting
+
+
+		2. Reference Type castings: THERE MUST BE INHERITANCE
+
+
+
+
+
+
+
+
+Employee employee = new Tester();
+employee.testing()
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
