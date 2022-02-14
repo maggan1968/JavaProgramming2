@@ -1,0 +1,44 @@
+Java Day47
+Topics: 1. OOP Polymorphism Continue:
+				Reference Type castings
+		2. OOP Review
+		3. Collections Intro
+
+Package name: day47_Polymoprhism
+
+
+4 apps you should have on Cydeo Dashboard:
+		1. Canvas
+		2. Discord
+		3. Jira
+		4. Github B25
+
+
+
+Polymorphism (Many forms): Ability of the objects to take on many forms
+			  "IS A relation" is a must
+
+			  Reference type is parent class/interface, and object type is child class
+
+			  Reference type decides what can be accessed/called
+
+			  Object type decides which implementation to execute
+
+
+Dynamic Polymorphism: Method overriding
+					 One method with multiple implementations
+
+Static Polymorphism: Method over loading
+					Multiple methods with same name
+					each method has one implementation ONLY
+
+
+
+		  WebDriver driver = new FireFoxDriver();
+		  driver.takeScreenShot();
+
+		  Animal animal = new Tiger();
+
+		  Employee employee = new Developer();
+
+
