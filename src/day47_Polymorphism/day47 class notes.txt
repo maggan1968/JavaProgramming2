@@ -2,7 +2,7 @@ Java Day47
 Topics: 1. OOP Polymorphism Continue:
 				Reference Type castings
 		2. OOP Review
-		3. Collections Intro
+		
 
 Package name: day47_Polymoprhism
 
@@ -161,9 +161,23 @@ employee.testing()
 
 
 
+ParentClass
+	static void method1(){
+		"Parent version"
+	}
+
+
+ChildClass extends ParentClass
+
+	static void method1(){
+		"Child version"
+	}
 
 
 
+Short videos:
+	1.Thread, Process
+	2. Collection Intro
 
 
 
