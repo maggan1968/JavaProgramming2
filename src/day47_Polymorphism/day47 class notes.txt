@@ -124,7 +124,7 @@ OOP: Object Oreinted Programming
 				Object class is the parent of all the classes by deafult
 
 
-				TesteBase
+				abstract TesteBase
 					driver
 
 					setUp (@BeforeMethod):
@@ -146,17 +146,59 @@ OOP: Object Oreinted Programming
 					TestClass2 extends TestBase
 
 
+				abstract BasePage
+
 
 		3. Abstraction: hiding the implementation details
 
+					Abstract method: method without the body
+									meant to be overriden
+
+					2 ways:
+
+						Abstract class: not concrete ==> No objects
+										meant to be parent
+
+										class can extend one abstract class ONLY
+
+						Interface: NOT a class. meant to be implemented
+								used for providing additional methods that classes need
+
+								100% abstraction
+
+								public is the ONLY access modifier
+
+								class can implement multiple interfaces
+
+								Can Have:
+									Variable: static & final ONLY
+									Methods: abstract method, static method, default method
+
+					WebDriver
+					WebElement
+					TakeScreenShot
+					JavaScriptExecuter
+					List
+					Set
+					...
+
+
 		4. Polymorphism: Ability of the objects to take on many forms
+
+						Shape shape = new Circle();
+						shape.area()
+
+
+
+
+
+
+Method Overriding vs Method Overloading
 
 
 
 Employee employee = new Tester();
 employee.testing()
-
-
 
 
 
@@ -178,6 +220,7 @@ ChildClass extends ParentClass
 Short videos:
 	1.Thread, Process
 	2. Collection Intro
+
 
 
 
