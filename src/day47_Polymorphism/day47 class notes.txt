@@ -218,7 +218,7 @@ ChildClass extends ParentClass
 
 
 Short videos:
-	1.Thread, Process
+	1.Thread, Process, Synchronized
 	2. Collection Intro
 
 
