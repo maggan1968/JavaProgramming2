@@ -97,8 +97,17 @@ concurrently vs parellely:
 
 
 
+ArrayList vs LinkedList vs Vector vs Stack:
+		
+		All of them are Lists (allows duplicates, has index)
 
+		ArrayList: searching elements are faster
 
+		LinkedList: insertion & deletion of elements are faster
+
+		Vector: Same as ArrayList but Synchronized
+
+		Stack: Has Last-in-first-out (LIFO) logic
 
 
 
