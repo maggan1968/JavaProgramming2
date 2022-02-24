@@ -13,11 +13,11 @@ Collection (I):
 
 		Set (I): Does not have index, does not allow duplicates
 
-				HashSet (C)
+				HashSet (C): order is random
 
-				LinkedHashSet (C)
+				LinkedHashSet (C): keeps the insertion order
 
-				TreeSet (C)
+				TreeSet (C): keeps sorted order, does not accept null
 
 
 		Queue(I)
