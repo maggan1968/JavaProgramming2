@@ -37,6 +37,15 @@ public class SetPractice2 {
         s.addAll(  Arrays.asList("E", "F", "G" )  );
 
         System.out.println("-----------------------------------------------");
+        /*
+        Given:
+            Integer[] nums = {1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10};
+
+            return the fifth element after removing the duplicates
+                        Do not change the order of the elements
+         */
+
+        System.out.println("-----------------------------------------------");
 
         String str = "aaaabbbbccccdddeeeee";
 
