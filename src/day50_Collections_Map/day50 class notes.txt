@@ -1,6 +1,5 @@
 Java Day50
-Topics: 1. Collection continue
-				Iterable
+Topics: 1. Collection continue - Iterable
 		2. Collection Review
 		3. Map Intro
 
