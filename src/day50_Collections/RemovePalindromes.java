@@ -1,10 +1,9 @@
-package day50_Collections_Map;
+package day50_Collections;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
-import java.util.function.Predicate;
 
 public class RemovePalindromes {
 

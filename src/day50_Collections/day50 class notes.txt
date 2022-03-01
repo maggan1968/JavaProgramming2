@@ -1,11 +1,8 @@
 Java Day50
 Topics: 1. Collection continue - Iterable
 		2. Collection Review
-		3. Map Intro
 
-
-package name: day50_Collections_Map
-
+package name: day50_Collections
 
 Collections Framework: consists of multiple interface, each interface is implemented by classes
 	
@@ -48,12 +45,5 @@ Collections Framework: consists of multiple interface, each interface is impleme
 
 
 						LinkedList (C): Maintains insertion order
-
-
-
-
-
-
-
 
 
