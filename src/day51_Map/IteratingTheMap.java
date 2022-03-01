@@ -11,7 +11,7 @@ public class IteratingTheMap {
         students.put("Maria", 90);
         students.put("Ali",85);
         students.put("Alex",80);
-        students.put("Ozan",75);
+        students.put("Ozan",99);
         students.put("Serkan",70);
         students.put("Andriy",98);
 
@@ -85,12 +85,42 @@ public class IteratingTheMap {
 
         System.out.println("--------------------------------------------------------");
 
+        // how many students has the score of 95 or greater
 
-        /*
-         if(eachValue < 90){
-                students.remove(eachKey);
+        int count = 0;
+
+
+        for (Integer eachScore : students.values()) {
+            if(eachScore >= 95){
+                count++;
             }
-         */
+        }
+
+/*
+        for (String eachKey : students.keySet()) {
+            Integer eachScore = students.get(eachKey);
+            if(eachScore >= 95){
+                count++;
+            }
+        }
+*/
+        System.out.println(count);
+
+
+        System.out.println("--------------------------------------------------------");
+
+        for (Map.Entry<String, Integer> entry : students.entrySet()) {
+            //System.out.println(entry);
+            System.out.println(entry.getKey() +" : " +entry.getValue());
+        }
+
+
+
+
+
+
+
+
     }
 
 }
