@@ -1,8 +1,6 @@
 package day51_Map;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 public class IteratingTheMap {
 
@@ -48,9 +46,44 @@ public class IteratingTheMap {
 
         System.out.println("--------------------------------------------------------");
 
+       // Collection<Integer> scores = students.values();
+        List<Integer> scores = new ArrayList<>( students.values() );
+
+        System.out.println(scores);
 
 
+        for (Integer value : students.values()) {
+            System.out.println(value);
+        }
 
+        System.out.println("--------------------------------------------------------");
+
+        int maxScore = Integer.MIN_VALUE;
+        int minScore = Integer.MAX_VALUE;
+
+        for (Integer score : students.values()) {
+            if(score > maxScore){
+                maxScore = score;
+            }
+
+            if(score < minScore){
+                minScore =score;
+            }
+
+        }
+
+        System.out.println("maxScore = " + maxScore);
+        System.out.println("minScore = " + minScore);
+
+        System.out.println("--------------------------------------------------------");
+
+        int max = Collections.max( students.values() );
+        int min = Collections.min( students.values() );
+
+        System.out.println("max = " + max);
+        System.out.println("min = " + min);
+
+        System.out.println("--------------------------------------------------------");
 
 
         /*
