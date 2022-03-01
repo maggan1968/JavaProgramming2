@@ -4,3 +4,26 @@ Topic: Map
 
 Package name: day51_Map
 
+
+Map (I): pari of collection
+		 does not support primitives
+		 size is dynamic
+		 key MUST be unique, value can be duplicated
+
+		HashMap (C): both key and value can be null
+					Maintains the random order
+		
+		LinkedHashMap (C): both key and value can be null
+						maintains the insertion order
+
+		TreeMap (C): key can not be null, but value can be null
+					Maintains the sorted order
+
+		Hashtable (C): both key and value can NOT be null
+						Maintains the random order
+
+
+Methods of Map: 
+		put(key, value): inserts the given key and value to map
+
+		get(key)

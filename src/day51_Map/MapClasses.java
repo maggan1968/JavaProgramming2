@@ -21,6 +21,8 @@ public class MapClasses {
         hashMap.put(null, "Hulya");
 
         System.out.println("hashMap = " + hashMap);
+
+       // System.out.println(hashMap.get());
         
 
         Map<Integer, String> linkedHashMap = new LinkedHashMap<>();
@@ -35,31 +37,33 @@ public class MapClasses {
         System.out.println("linkedHashMap = " + linkedHashMap);
         
 
-        Map<Integer, String> treeMap = new TreeMap<>();
+        Map<Integer, String> treeMap = new TreeMap<>(); // Key can not be null, value can be null and duplicated
         treeMap.put(10, "Arthur");
         treeMap.put(20, "George");
         treeMap.put(3, "Jack");
         treeMap.put(40, "Emma");
         treeMap.put(5, "Ahmet");
         treeMap.put(5,"Isabella");
-       // treeMap.put(null, "Hulya");
+        treeMap.put(7, null);
 
         System.out.println("treeMap = " + treeMap);
 
 
-        Map<Integer, String> hashtable = new Hashtable<>();
+        Map<Integer, String> hashtable = new Hashtable<>(); // key and value both can not null
         hashtable.put(10, "Arthur");
         hashtable.put(20, "George");
         hashtable.put(3, "Jack");
         hashtable.put(40, "Emma");
         hashtable.put(5, "Ahmet");
         hashtable.put(5,"Isabella");
-        //  hashtable.put(null, "Hulya");
+        hashtable.put(6, null);
 
         System.out.println("hashtable = " + hashtable);
 
 
 
+     //   String str = null;
+       // System.out.println(str.toUpperCase());
 
 
     }
