@@ -24,6 +24,14 @@ public class MapPractice1 {
 
       //  1. Update the "M" to Male and "F" to Female
 
+        for (String key : employeeMap.keySet()) {
+            if(employeeMap.get(key).equalsIgnoreCase("m") ){
+                employeeMap.replace(key, "Male");
+            }
+        }
+
+        System.out.println(employeeMap);
+
 
       //  2. Display the names of all female employees
 
