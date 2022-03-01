@@ -44,6 +44,11 @@ public class MapPractice4 {
 
         System.out.println("------------------------------------------------");
 
+        for (ArrayList<String> eachGroup : groups.values()) {
+            for (String eachName : eachGroup) {
+                System.out.println(eachName);
+            }
+        }
 
 
     }
