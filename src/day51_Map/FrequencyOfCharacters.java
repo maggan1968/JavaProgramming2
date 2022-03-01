@@ -19,7 +19,8 @@ public class FrequencyOfCharacters {
         Map<String, Integer> result = new LinkedHashMap<>(); // {b=2, c=3, a=5}
 
         for (String each : arr) { // each: characters of string
-            result.put(each,  Collections.frequency(Arrays.asList(arr), each)  );
+            int frequency = Collections.frequency( Arrays.asList(arr), each);
+            result.put(each,  frequency  );
         }
 
         System.out.println(result);
