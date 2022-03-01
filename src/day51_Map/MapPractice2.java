@@ -47,6 +47,9 @@ public class MapPractice2 {
         System.out.println(name2);
 
 
+        System.out.println("----------------------------------------------");
+
+
     }
 
 
