@@ -52,7 +52,6 @@ Methods of Map:
 
 				getkey()
 				getValue()
-				setKey()
 				setValue()
 
 
