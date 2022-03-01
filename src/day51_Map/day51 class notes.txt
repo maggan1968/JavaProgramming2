@@ -26,4 +26,7 @@ Map (I): pari of collection
 Methods of Map: 
 		put(key, value): inserts the given key and value to map
 
-		get(key)
+		get(key): returns the value of the given key
+
+		replace(key, newValue): replaces the value of the given key with the given new value
+		
