@@ -61,6 +61,9 @@ public class ArrayOfMap {
 
         System.out.println(array.length);
 
+        //  1.2 Print the names of all scrum masters
+
+        //    1.3 Print the names of all Developers
 
     }
 
