@@ -60,28 +60,3 @@ Methods of Map:
 Enum: a number of things
 
 
-
-
-
-List< Map<String,Integer> >
-
-Map < Map<String, Integer> , Map<String, Integer> >
-
-
-
-
-Browser browser = "Cydeo"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
