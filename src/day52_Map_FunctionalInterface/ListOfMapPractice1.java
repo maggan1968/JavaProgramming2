@@ -93,10 +93,28 @@ public class ListOfMapPractice1 {
 
         }
 
-
+        System.out.println("-------------------------------------------------");
 
 
     //    1.3 Print the names of all Developers
+
+        for(Map<String, String> eachScrumTeam  :  scrumTeams) {
+
+            /*
+            for (String name : eachScrumTeam.keySet()) {
+                if(eachScrumTeam.get(name).equals("SM") ){
+                    System.out.println(name);
+                }
+            }
+             */
+            for (Map.Entry<String, String> pair : eachScrumTeam.entrySet()) {
+                if (pair.getValue().equals("Developer")) {
+                    System.out.println(pair.getKey());
+                }
+            }
+
+        }
+
 
 
 
