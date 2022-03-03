@@ -20,6 +20,8 @@ Warmup tasks:
 
 List of Map
 
+Array of Map
+
 Map of Map
 
 
