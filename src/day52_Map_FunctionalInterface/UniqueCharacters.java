@@ -28,7 +28,6 @@ public class UniqueCharacters {
 
     }
 
-
 }
 /*
 1. Write a program that can find the unique characters from a String
