@@ -1,8 +1,7 @@
 package day52_Map_FunctionalInterface;
 
 
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
 
 public class ListOfMapPractice1 {
 
@@ -50,6 +49,55 @@ public class ListOfMapPractice1 {
         scrumTeam5.put("Adnan","QA");
 
 
+      //  LinkedHashMap<Integer, Integer> m = new LinkedHashMap<>();
+
+    //    1.1 Create a data structure that can contain all the given maps above
+
+        List< Map<String, String> >  scrumTeams = new ArrayList<>();
+        scrumTeams.add(  scrumTeam1);
+        scrumTeams.add(scrumTeam2 );
+        scrumTeams.addAll(Arrays.asList(scrumTeam3, scrumTeam4, scrumTeam5));
+
+     //   scrumTeams.addAll((Collection<? extends LinkedHashMap<String, String>>) Arrays.asList((LinkedHashMap) scrumTeam1, (LinkedHashMap) scrumTeam1, (LinkedHashMap) scrumTeam1));
+
+        System.out.println(scrumTeams);
+        System.out.println(scrumTeams.size());
+
+
+    // print the names of all employees:
+
+       for(Map<String, String> eachScrumTeam  :  scrumTeams){
+           for (Map.Entry<String, String> entry : eachScrumTeam.entrySet()) {
+               System.out.println(entry.getKey() +" : "+entry.getValue());
+           }
+        }
+
+        System.out.println("-------------------------------------------------------------");
+
+    //  1.2 Print the names of all scrum masters
+
+        for(Map<String, String> eachScrumTeam  :  scrumTeams) {
+
+            /*
+            for (String name : eachScrumTeam.keySet()) {
+                if(eachScrumTeam.get(name).equals("SM") ){
+                    System.out.println(name);
+                }
+            }
+             */
+            for (Map.Entry<String, String> pair : eachScrumTeam.entrySet()) {
+                if (pair.getValue().equals("SM")) {
+                    System.out.println(pair.getKey());
+                }
+            }
+
+        }
+
+
+
+
+    //    1.3 Print the names of all Developers
+
 
 
 
@@ -60,7 +108,7 @@ public class ListOfMapPractice1 {
 1.Given the following Maps:
 
 
-    1.1 Create a a data structure that can contain all the given maps above
+    1.1 Create a data structure that can contain all the given maps above
 
     1.2 Print the names of all scrum masters
 
