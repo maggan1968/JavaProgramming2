@@ -1,6 +1,5 @@
 package day52_Map_FunctionalInterface;
 
-
 import java.util.*;
 
 public class ListOfMapPractice1 {
