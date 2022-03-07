@@ -3,6 +3,7 @@ package day53_FunctionalInterface;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 public class BuildInFunctionalInterfaces1 {
@@ -35,6 +36,21 @@ public class BuildInFunctionalInterfaces1 {
         names.removeIf(isPalindrome);
 
         System.out.println(names);
+
+
+        System.out.println("----------------------------------------");
+
+        Consumer<String> printEach = (s) -> {
+            for (int i = 0; i < s.length(); i++) {
+                System.out.println(s.charAt(i));
+            }
+        };
+
+        printEach.accept("Java");
+
+        System.out.println("---------------------------------------------");
+
+
 
 
 
