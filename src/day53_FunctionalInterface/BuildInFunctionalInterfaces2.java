@@ -1,6 +1,8 @@
 package day53_FunctionalInterface;
 
 import java.util.Arrays;
+import java.util.LinkedHashMap;
+import java.util.Map;
 import java.util.function.BiConsumer;
 import java.util.function.BiPredicate;
 
@@ -65,9 +67,27 @@ public class BuildInFunctionalInterfaces2 {
 
         printMultipleTimes.accept("Java", 5);
 
-        // create a function that takes first and last names  and prints the formatted full name
+        System.out.println("---------------------------------------------");
 
-        // "jAvA", "PROGRAMMING"  =====> Java Programming
+        Map<String, String> scrumTeam1 = new LinkedHashMap<>();
+        scrumTeam1.put("Abdulhamid","SM");
+        scrumTeam1.put("Nikita","Developer");
+        scrumTeam1.put("Alina","Developer");
+        scrumTeam1.put("Mert","PO");
+        scrumTeam1.put("Lee","SDET");
+
+        /*
+        for (Map.Entry<String, String> entry : scrumTeam1.entrySet()) {
+            String k = entry.getKey();
+            String v = entry.getValue();
+            System.out.println(k + " : "+v);
+        }
+         */
+
+        scrumTeam1.forEach(  (k, v) -> System.out.println(k+" : "+v) );
+
+
+
 
 
 
