@@ -6,6 +6,7 @@ Topics:	1. Build in functional interfaces:
 					BiPredicate
 					BiConsumer
 					BiFunction
+					
 		2. Stream
 
 
