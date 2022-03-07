@@ -40,8 +40,35 @@ public class StreamPractice {
 
 
         List<Integer> list4 = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
+        list4 = list4.stream().map( p -> p * 10 ).collect(Collectors.toList());
+
+        System.out.println(list4);
 
 
+        List<String> days = new ArrayList<>(Arrays.asList("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"));
+
+        days =  days.stream().map( p -> p.substring(0, 3) ).collect(Collectors.toList());
+
+        System.out.println(days);
+
+
+        List<Integer> list5 = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
+        List<Integer> evens = list5.stream().filter( p -> p%2==0).collect(Collectors.toList());
+
+        System.out.println(evens);
+
+
+        List<String> names = new ArrayList<>(Arrays.asList("Java", "java", "jAvA", "Python", "Ruby"));
+
+        long countJava = names.stream().filter( p -> p.equalsIgnoreCase("java")).count();
+
+        System.out.println(countJava);
+
+
+        names.stream().filter( p -> p.equalsIgnoreCase("java")).forEach( p -> System.out.println(p));
+
+
+        List<Integer> list6 = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
 
 
 
