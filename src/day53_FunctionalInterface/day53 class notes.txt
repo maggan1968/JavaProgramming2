@@ -12,7 +12,7 @@ Topics:	1. Build in functional interfaces:
 package name: day53_FunctionalInterface
 
 Warmup tasks:
-	1. Go to B25 Github Organization -> JavaProgramming -> src -> Package day53_FunctionalInterface -> MapPractice
+	1. Go to Package day53_FunctionalInterface -> MapPractice
 			Complete all the given task requirements 
 
 	2. Create a Functional interface named MyThirdFunctionalInterface that has an abstract method takes one argument of any type and returns the same type
