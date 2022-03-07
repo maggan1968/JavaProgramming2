@@ -1,9 +1,25 @@
 package day53_FunctionalInterface;
 
 import java.util.Arrays;
+import java.util.function.BiConsumer;
 import java.util.function.BiPredicate;
 
 public class BuildInFunctionalInterfaces2 {
+
+    /*
+    static BiPredicate<Integer[], Integer> contains = (a, b) -> {
+        boolean result = false;
+
+        for (Integer each : a) {
+            if(each == b){
+                result = true;
+                break;
+            }
+        }
+
+        return result;
+    };
+*/
 
     public static void main(String[] args) {
 
@@ -39,7 +55,19 @@ public class BuildInFunctionalInterfaces2 {
             return Arrays.equals(arr1, arr2);
         };
 
+        System.out.println("---------------------------------------------");
+        // create a function that can print the given string for given number of times
+        BiConsumer<String, Integer>  printMultipleTimes = (s, n) -> {
+            for (int i = 0; i < n; i++) {
+                System.out.println(s);
+            }
+        };
 
+        printMultipleTimes.accept("Java", 5);
+
+        // create a function that takes first and last names  and prints the formatted full name
+
+        // "jAvA", "PROGRAMMING"  =====> Java Programming
 
 
 
