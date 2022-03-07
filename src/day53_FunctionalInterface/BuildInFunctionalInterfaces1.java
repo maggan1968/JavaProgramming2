@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Predicate;
 
 public class BuildInFunctionalInterfaces1 {
@@ -69,6 +70,22 @@ public class BuildInFunctionalInterfaces1 {
                 "Jilili Jiwuer", "Ali Ismayilov"));
 
         employees.forEach( s -> System.out.println(s.charAt(0)+"."+s.charAt(s.lastIndexOf(" ")+1 ) ));
+
+        System.out.println("-------------------------------------------");
+
+        Function<int[], List<Integer>> convertToList = (a) -> {
+            List<Integer> result = new ArrayList<>();
+            for (int each : a) {
+                result.add(each);
+            }
+           return result;
+        };
+
+        int[] arr = {1,2,3,4,5,6,7,8,9,10};
+        List<Integer> l = convertToList.apply(arr);
+
+        System.out.println(l);
+
 
         System.out.println("-------------------------------------------");
 
