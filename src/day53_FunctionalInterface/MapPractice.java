@@ -44,34 +44,71 @@ public class MapPractice {
         unit6.put("Collection", 9.5);
         unit6.put("Map", 7.5);
 
-        List<Map<String,Double>> allUnits = new ArrayList<>();
+        List<Map<String, Double>> allUnits = new ArrayList<>();
         allUnits.addAll(Arrays.asList(unit1, unit2, unit3, unit4, unit5, unit6));
 
-       // 1. Display each Java topic and its hours on the console
+        // 1. Display each Java topic and its hours on the console
 
-        for( Map<String,Double>  eachUnit : allUnits ){
+        for (Map<String, Double> eachUnit : allUnits) {
             for (Map.Entry<String, Double> entry : eachUnit.entrySet()) {
-                System.out.println(entry.getKey() +" : "+entry.getValue());
+                System.out.println(entry.getKey() + " : " + entry.getValue());
             }
         }
 
         System.out.println("---------------------------------------------------------");
 
 
-      //  2. Display the names of the java topics that we spend more than 7 hours
-        for( Map<String,Double>  eachUnit : allUnits ) {
+        //  2. Display the names of the java topics that we spend more than 7 hours
+        for (Map<String, Double> eachUnit : allUnits) {
             for (Map.Entry<String, Double> entry : eachUnit.entrySet()) {
-                    if(entry.getValue() >= 7){
-                        System.out.println(entry.getKey());
-                    }
+                if (entry.getValue() >= 7) {
+                    System.out.println(entry.getKey());
+                }
             }
         }
 
+        System.out.println("---------------------------------------------------------");
+        //   3. Display the names of the java topics that we spend less than 3 hours
 
+        for (Map<String, Double> eachUnit : allUnits) {
+            for (Map.Entry<String, Double> entry : eachUnit.entrySet()) {
+                if (entry.getValue() < 3) {
+                    System.out.println(entry.getKey());
+                }
+            }
+        }
 
-     //   3. Display the names of the java topics that we spend less than 3 hours
-     //   4. Which Java Topic has the maximum hours?
-      // 5. Which topic has the minimum hours?
+        System.out.println("---------------------------------------------------------");
+        //   4. Which Java Topic has the maximum hours?
+        // 5. Which topic has the minimum hours?
+
+        double max = Double.MIN_VALUE;
+        String name1 = "";
+
+        double min = Double.MAX_VALUE;
+        String name2 = "";
+
+        for (Map<String, Double> eachUnit : allUnits) {
+            for (Map.Entry<String, Double> entry : eachUnit.entrySet()) {
+                    if(entry.getValue() > max){
+                        max = entry.getValue();
+                        name1 = entry.getKey();
+                    }
+
+                    if(entry.getValue() < min){
+                        min = entry.getValue();
+                        name2 = entry.getKey();
+                    }
+
+            }
+        }
+
+        System.out.println("name1 = " + name1);
+        System.out.println("max = " + max);
+
+        System.out.println("name2 = " + name2);
+        System.out.println("min = " + min);
+
 
 
 
