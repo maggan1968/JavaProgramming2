@@ -88,6 +88,8 @@ public class BuildInFunctionalInterfaces1 {
 
 
         System.out.println("-------------------------------------------");
+       // Function<List<Integer>, int[]> convertToArray = (a) ->{ };
+
 
 
     }
