@@ -18,6 +18,8 @@ public class LambdaExpressions {
 
         //create a function that can return the cube of an integer
 
+
+
     }
 
 }
