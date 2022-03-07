@@ -20,12 +20,12 @@ public class BuildInFunctionalInterfaces1 {
 
         System.out.println(result1);
 
-        Predicate<Integer> isEven = p -> p %2==0;
+        Predicate<Integer> isEven = p -> p % 2 == 0;
 
         System.out.println("--------------------------------------");
 
-        List<Integer> list = new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,1,2,3,4,5,6,7,1,2,3));
-        list.removeIf( p ->  p%2==0 );
+        List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 1, 2, 3, 4, 5, 6, 7, 1, 2, 3));
+        list.removeIf(p -> p % 2 == 0);
 
         System.out.println(list);
 
@@ -51,7 +51,7 @@ public class BuildInFunctionalInterfaces1 {
 
         System.out.println("---------------------------------------------");
 
-        List<Integer> list2 = new ArrayList<>(Arrays.asList(1,2,3,34,5,6,7,8,9));
+        List<Integer> list2 = new ArrayList<>(Arrays.asList(1, 2, 3, 34, 5, 6, 7, 8, 9));
 
         /*
         for (Integer each : list2) {
@@ -61,7 +61,9 @@ public class BuildInFunctionalInterfaces1 {
         }
     */
 
-        list2.forEach( p -> { if(p%2!=0) System.out.println(p);});
+        list2.forEach(p -> {
+            if (p % 2 != 0) System.out.println(p);
+        });
 
         System.out.println("-------------------------------------------");
 
@@ -69,7 +71,7 @@ public class BuildInFunctionalInterfaces1 {
         employees.addAll(Arrays.asList("Anel Adilbayeva", "Aygun Abbasova Jarullah",
                 "Jilili Jiwuer", "Ali Ismayilov"));
 
-        employees.forEach( s -> System.out.println(s.charAt(0)+"."+s.charAt(s.lastIndexOf(" ")+1 ) ));
+        employees.forEach(s -> System.out.println(s.charAt(0) + "." + s.charAt(s.lastIndexOf(" ") + 1)));
 
         System.out.println("-------------------------------------------");
 
@@ -78,17 +80,38 @@ public class BuildInFunctionalInterfaces1 {
             for (int each : a) {
                 result.add(each);
             }
-           return result;
+            return result;
         };
 
-        int[] arr = {1,2,3,4,5,6,7,8,9,10};
+        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         List<Integer> l = convertToList.apply(arr);
 
         System.out.println(l);
 
 
         System.out.println("-------------------------------------------");
-       // Function<List<Integer>, int[]> convertToArray = (a) ->{ };
+        Function<List<Integer>, int[]> convertToArray = (a) -> {
+            int[] result = new int[a.size()];
+            for (int i = 0; i < a.size(); i++) {
+                 result[i] = a.get(i);
+            }
+
+           return result;
+        };
+
+        List<Integer> numbers = new ArrayList<>(Arrays.asList(1,2,3,4,5));
+
+       int[] result2 = convertToArray.apply(numbers);
+
+        System.out.println("-------------------------------------------");
+
+        // create a function that can return the maximum number from an int array
+
+        // create a function that can swap the first and last elements of an array
+
+        // Create a function that can reverse an array and returns it
+
+        // create a function that can reverse a List
 
 
 
